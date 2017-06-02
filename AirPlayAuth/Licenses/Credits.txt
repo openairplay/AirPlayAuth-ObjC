@@ -1,0 +1,16 @@
+AesGcm
+(License https://github.com/indisoluble/AesGcm/blob/master/LICENSE)
+(Sources https://github.com/indisoluble/AesGcm)
+
+curve25519-donna
+(License https://github.com/agl/curve25519-donna/blob/master/LICENSE.md)
+(Sources https://github.com/agl/curve25519-donna/tree/master)
+
+ed25519
+(License https://github.com/orlp/ed25519/blob/master/license.txt)
+(Sources https://github.com/orlp/ed25519)
+
+csrp
+(License https://github.com/hoccer/csrp/blob/master/LICENSE)
+(Sources https://github.com/hoccer/csrp)
+(Modifications https://github.com/ejurgensen/atv_verification/tree/master/csrp)

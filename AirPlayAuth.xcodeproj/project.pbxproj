@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C1B9FCF1EE05B8500B83BE3 /* IAGAesComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B9FC11EE05B8500B83BE3 /* IAGAesComponents.m */; };
+		3C1B9FD01EE05B8500B83BE3 /* IAGBitwiseComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B9FC31EE05B8500B83BE3 /* IAGBitwiseComponents.m */; };
+		3C1B9FD11EE05B8500B83BE3 /* IAGGcmEndianness.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B9FC51EE05B8500B83BE3 /* IAGGcmEndianness.m */; };
+		3C1B9FD21EE05B8500B83BE3 /* IAGGcmMathComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B9FC71EE05B8500B83BE3 /* IAGGcmMathComponents.m */; };
+		3C1B9FD31EE05B8500B83BE3 /* IAGAesGcm.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B9FCA1EE05B8500B83BE3 /* IAGAesGcm.m */; };
+		3C1B9FD41EE05B8500B83BE3 /* IAGCipheredData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B9FCC1EE05B8500B83BE3 /* IAGCipheredData.m */; };
+		3C1B9FD51EE05B8500B83BE3 /* IAGError.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B9FCE1EE05B8500B83BE3 /* IAGError.m */; };
+		3C1B9FDB1EE05CC400B83BE3 /* AirPlaySenderConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B9FDA1EE05CC400B83BE3 /* AirPlaySenderConnection.m */; };
+		3C2B971C1EE04C80000B1EB7 /* curve25519-donna.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B96FE1EE04C80000B1EB7 /* curve25519-donna.c */; };
+		3C2B971D1EE04C80000B1EB7 /* add_scalar.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B97001EE04C80000B1EB7 /* add_scalar.c */; };
+		3C2B971E1EE04C80000B1EB7 /* fe.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B97021EE04C80000B1EB7 /* fe.c */; };
+		3C2B971F1EE04C80000B1EB7 /* ge.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B97051EE04C80000B1EB7 /* ge.c */; };
+		3C2B97201EE04C80000B1EB7 /* key_exchange.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B97071EE04C80000B1EB7 /* key_exchange.c */; };
+		3C2B97211EE04C80000B1EB7 /* keypair.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B97081EE04C80000B1EB7 /* keypair.c */; };
+		3C2B97221EE04C80000B1EB7 /* sc.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B970A1EE04C80000B1EB7 /* sc.c */; };
+		3C2B97231EE04C80000B1EB7 /* seed.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B970C1EE04C80000B1EB7 /* seed.c */; };
+		3C2B97241EE04C80000B1EB7 /* sha512.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B970D1EE04C80000B1EB7 /* sha512.c */; };
+		3C2B97251EE04C80000B1EB7 /* sign.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B970F1EE04C80000B1EB7 /* sign.c */; };
+		3C2B97261EE04C80000B1EB7 /* verify.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B97101EE04C80000B1EB7 /* verify.c */; };
+		3C2B97271EE04C80000B1EB7 /* srp.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B97121EE04C80000B1EB7 /* srp.c */; };
+		3C2B97291EE04CA7000B1EB7 /* Licenses in Resources */ = {isa = PBXBuildFile; fileRef = 3C2B97281EE04CA7000B1EB7 /* Licenses */; };
+		3C5E35BD1EE04F9F005371CF /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5E35BB1EE04F9F005371CF /* libcrypto.a */; };
+		3C5E35BE1EE04F9F005371CF /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5E35BC1EE04F9F005371CF /* libssl.a */; };
+		3CC4C1271EE0445A00141571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4C1261EE0445A00141571 /* AppDelegate.m */; };
+		3CC4C12A1EE0445A00141571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4C1291EE0445A00141571 /* main.m */; };
+		3CC4C12C1EE0445A00141571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC4C12B1EE0445A00141571 /* Assets.xcassets */; };
+		3CC4C12F1EE0445A00141571 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CC4C12D1EE0445A00141571 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C1B9FC01EE05B8500B83BE3 /* IAGAesComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAGAesComponents.h; sourceTree = "<group>"; };
+		3C1B9FC11EE05B8500B83BE3 /* IAGAesComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAGAesComponents.m; sourceTree = "<group>"; };
+		3C1B9FC21EE05B8500B83BE3 /* IAGBitwiseComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAGBitwiseComponents.h; sourceTree = "<group>"; };
+		3C1B9FC31EE05B8500B83BE3 /* IAGBitwiseComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAGBitwiseComponents.m; sourceTree = "<group>"; };
+		3C1B9FC41EE05B8500B83BE3 /* IAGGcmEndianness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAGGcmEndianness.h; sourceTree = "<group>"; };
+		3C1B9FC51EE05B8500B83BE3 /* IAGGcmEndianness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAGGcmEndianness.m; sourceTree = "<group>"; };
+		3C1B9FC61EE05B8500B83BE3 /* IAGGcmMathComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAGGcmMathComponents.h; sourceTree = "<group>"; };
+		3C1B9FC71EE05B8500B83BE3 /* IAGGcmMathComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAGGcmMathComponents.m; sourceTree = "<group>"; };
+		3C1B9FC81EE05B8500B83BE3 /* IAGTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAGTypes.h; sourceTree = "<group>"; };
+		3C1B9FC91EE05B8500B83BE3 /* IAGAesGcm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAGAesGcm.h; sourceTree = "<group>"; };
+		3C1B9FCA1EE05B8500B83BE3 /* IAGAesGcm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAGAesGcm.m; sourceTree = "<group>"; };
+		3C1B9FCB1EE05B8500B83BE3 /* IAGCipheredData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAGCipheredData.h; sourceTree = "<group>"; };
+		3C1B9FCC1EE05B8500B83BE3 /* IAGCipheredData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAGCipheredData.m; sourceTree = "<group>"; };
+		3C1B9FCD1EE05B8500B83BE3 /* IAGError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAGError.h; sourceTree = "<group>"; };
+		3C1B9FCE1EE05B8500B83BE3 /* IAGError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAGError.m; sourceTree = "<group>"; };
+		3C1B9FD91EE05CC400B83BE3 /* AirPlaySenderConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlaySenderConnection.h; sourceTree = "<group>"; };
+		3C1B9FDA1EE05CC400B83BE3 /* AirPlaySenderConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlaySenderConnection.m; sourceTree = "<group>"; };
+		3C2B96FE1EE04C80000B1EB7 /* curve25519-donna.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "curve25519-donna.c"; sourceTree = "<group>"; };
+		3C2B97001EE04C80000B1EB7 /* add_scalar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = add_scalar.c; sourceTree = "<group>"; };
+		3C2B97011EE04C80000B1EB7 /* ed25519.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ed25519.h; sourceTree = "<group>"; };
+		3C2B97021EE04C80000B1EB7 /* fe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fe.c; sourceTree = "<group>"; };
+		3C2B97031EE04C80000B1EB7 /* fe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fe.h; sourceTree = "<group>"; };
+		3C2B97041EE04C80000B1EB7 /* fixedint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixedint.h; sourceTree = "<group>"; };
+		3C2B97051EE04C80000B1EB7 /* ge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ge.c; sourceTree = "<group>"; };
+		3C2B97061EE04C80000B1EB7 /* ge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ge.h; sourceTree = "<group>"; };
+		3C2B97071EE04C80000B1EB7 /* key_exchange.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = key_exchange.c; sourceTree = "<group>"; };
+		3C2B97081EE04C80000B1EB7 /* keypair.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = keypair.c; sourceTree = "<group>"; };
+		3C2B97091EE04C80000B1EB7 /* precomp_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = precomp_data.h; sourceTree = "<group>"; };
+		3C2B970A1EE04C80000B1EB7 /* sc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sc.c; sourceTree = "<group>"; };
+		3C2B970B1EE04C80000B1EB7 /* sc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sc.h; sourceTree = "<group>"; };
+		3C2B970C1EE04C80000B1EB7 /* seed.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = seed.c; sourceTree = "<group>"; };
+		3C2B970D1EE04C80000B1EB7 /* sha512.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha512.c; sourceTree = "<group>"; };
+		3C2B970E1EE04C80000B1EB7 /* sha512.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha512.h; sourceTree = "<group>"; };
+		3C2B970F1EE04C80000B1EB7 /* sign.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sign.c; sourceTree = "<group>"; };
+		3C2B97101EE04C80000B1EB7 /* verify.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = verify.c; sourceTree = "<group>"; };
+		3C2B97121EE04C80000B1EB7 /* srp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = srp.c; sourceTree = "<group>"; };
+		3C2B97131EE04C80000B1EB7 /* srp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
+		3C2B97281EE04CA7000B1EB7 /* Licenses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Licenses; sourceTree = "<group>"; };
+		3C5E35BB1EE04F9F005371CF /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = AirPlayAuth/ThirdParty/openssl/libcrypto.a; sourceTree = "<group>"; };
+		3C5E35BC1EE04F9F005371CF /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = AirPlayAuth/ThirdParty/openssl/libssl.a; sourceTree = "<group>"; };
+		3CC4C1221EE0445A00141571 /* AirPlayAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPlayAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC4C1251EE0445A00141571 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CC4C1261EE0445A00141571 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CC4C1291EE0445A00141571 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CC4C12B1EE0445A00141571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CC4C12E1EE0445A00141571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3CC4C1301EE0445A00141571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CC4C11F1EE0445A00141571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5E35BD1EE04F9F005371CF /* libcrypto.a in Frameworks */,
+				3C5E35BE1EE04F9F005371CF /* libssl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C1B9FBE1EE05B8500B83BE3 /* AesGcm */ = {
+			isa = PBXGroup;
+			children = (
+				3C1B9FBF1EE05B8500B83BE3 /* Components */,
+				3C1B9FC91EE05B8500B83BE3 /* IAGAesGcm.h */,
+				3C1B9FCA1EE05B8500B83BE3 /* IAGAesGcm.m */,
+				3C1B9FCB1EE05B8500B83BE3 /* IAGCipheredData.h */,
+				3C1B9FCC1EE05B8500B83BE3 /* IAGCipheredData.m */,
+				3C1B9FCD1EE05B8500B83BE3 /* IAGError.h */,
+				3C1B9FCE1EE05B8500B83BE3 /* IAGError.m */,
+			);
+			path = AesGcm;
+			sourceTree = "<group>";
+		};
+		3C1B9FBF1EE05B8500B83BE3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3C1B9FC01EE05B8500B83BE3 /* IAGAesComponents.h */,
+				3C1B9FC11EE05B8500B83BE3 /* IAGAesComponents.m */,
+				3C1B9FC21EE05B8500B83BE3 /* IAGBitwiseComponents.h */,
+				3C1B9FC31EE05B8500B83BE3 /* IAGBitwiseComponents.m */,
+				3C1B9FC41EE05B8500B83BE3 /* IAGGcmEndianness.h */,
+				3C1B9FC51EE05B8500B83BE3 /* IAGGcmEndianness.m */,
+				3C1B9FC61EE05B8500B83BE3 /* IAGGcmMathComponents.h */,
+				3C1B9FC71EE05B8500B83BE3 /* IAGGcmMathComponents.m */,
+				3C1B9FC81EE05B8500B83BE3 /* IAGTypes.h */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3C2B96EA1EE04C80000B1EB7 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				3C1B9FBE1EE05B8500B83BE3 /* AesGcm */,
+				3C2B96FD1EE04C80000B1EB7 /* curve25519 */,
+				3C2B96FF1EE04C80000B1EB7 /* ed25519 */,
+				3C2B97111EE04C80000B1EB7 /* srp */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		3C2B96FD1EE04C80000B1EB7 /* curve25519 */ = {
+			isa = PBXGroup;
+			children = (
+				3C2B96FE1EE04C80000B1EB7 /* curve25519-donna.c */,
+			);
+			path = curve25519;
+			sourceTree = "<group>";
+		};
+		3C2B96FF1EE04C80000B1EB7 /* ed25519 */ = {
+			isa = PBXGroup;
+			children = (
+				3C2B97001EE04C80000B1EB7 /* add_scalar.c */,
+				3C2B97011EE04C80000B1EB7 /* ed25519.h */,
+				3C2B97021EE04C80000B1EB7 /* fe.c */,
+				3C2B97031EE04C80000B1EB7 /* fe.h */,
+				3C2B97041EE04C80000B1EB7 /* fixedint.h */,
+				3C2B97051EE04C80000B1EB7 /* ge.c */,
+				3C2B97061EE04C80000B1EB7 /* ge.h */,
+				3C2B97071EE04C80000B1EB7 /* key_exchange.c */,
+				3C2B97081EE04C80000B1EB7 /* keypair.c */,
+				3C2B97091EE04C80000B1EB7 /* precomp_data.h */,
+				3C2B970A1EE04C80000B1EB7 /* sc.c */,
+				3C2B970B1EE04C80000B1EB7 /* sc.h */,
+				3C2B970C1EE04C80000B1EB7 /* seed.c */,
+				3C2B970D1EE04C80000B1EB7 /* sha512.c */,
+				3C2B970E1EE04C80000B1EB7 /* sha512.h */,
+				3C2B970F1EE04C80000B1EB7 /* sign.c */,
+				3C2B97101EE04C80000B1EB7 /* verify.c */,
+			);
+			path = ed25519;
+			sourceTree = "<group>";
+		};
+		3C2B97111EE04C80000B1EB7 /* srp */ = {
+			isa = PBXGroup;
+			children = (
+				3C2B97121EE04C80000B1EB7 /* srp.c */,
+				3C2B97131EE04C80000B1EB7 /* srp.h */,
+			);
+			path = srp;
+			sourceTree = "<group>";
+		};
+		3C5E35B81EE04F76005371CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C5E35BB1EE04F9F005371CF /* libcrypto.a */,
+				3C5E35BC1EE04F9F005371CF /* libssl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CC4C1191EE0445A00141571 = {
+			isa = PBXGroup;
+			children = (
+				3CC4C1241EE0445A00141571 /* AirPlayAuth */,
+				3CC4C1231EE0445A00141571 /* Products */,
+				3C5E35B81EE04F76005371CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CC4C1231EE0445A00141571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CC4C1221EE0445A00141571 /* AirPlayAuth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CC4C1241EE0445A00141571 /* AirPlayAuth */ = {
+			isa = PBXGroup;
+			children = (
+				3CC4C1251EE0445A00141571 /* AppDelegate.h */,
+				3CC4C1261EE0445A00141571 /* AppDelegate.m */,
+				3C1B9FD91EE05CC400B83BE3 /* AirPlaySenderConnection.h */,
+				3C1B9FDA1EE05CC400B83BE3 /* AirPlaySenderConnection.m */,
+				3C2B96EA1EE04C80000B1EB7 /* ThirdParty */,
+				3CC4C12B1EE0445A00141571 /* Assets.xcassets */,
+				3CC4C12D1EE0445A00141571 /* MainMenu.xib */,
+				3CC4C1301EE0445A00141571 /* Info.plist */,
+				3C2B97281EE04CA7000B1EB7 /* Licenses */,
+				3CC4C1281EE0445A00141571 /* Supporting Files */,
+			);
+			path = AirPlayAuth;
+			sourceTree = "<group>";
+		};
+		3CC4C1281EE0445A00141571 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CC4C1291EE0445A00141571 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CC4C1211EE0445A00141571 /* AirPlayAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC4C1331EE0445A00141571 /* Build configuration list for PBXNativeTarget "AirPlayAuth" */;
+			buildPhases = (
+				3CC4C11E1EE0445A00141571 /* Sources */,
+				3CC4C11F1EE0445A00141571 /* Frameworks */,
+				3CC4C1201EE0445A00141571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirPlayAuth;
+			productName = AirPlayAuth;
+			productReference = 3CC4C1221EE0445A00141571 /* AirPlayAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CC4C11A1EE0445A00141571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					3CC4C1211EE0445A00141571 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3CC4C11D1EE0445A00141571 /* Build configuration list for PBXProject "AirPlayAuth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CC4C1191EE0445A00141571;
+			productRefGroup = 3CC4C1231EE0445A00141571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CC4C1211EE0445A00141571 /* AirPlayAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CC4C1201EE0445A00141571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC4C12C1EE0445A00141571 /* Assets.xcassets in Resources */,
+				3C2B97291EE04CA7000B1EB7 /* Licenses in Resources */,
+				3CC4C12F1EE0445A00141571 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CC4C11E1EE0445A00141571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1B9FD11EE05B8500B83BE3 /* IAGGcmEndianness.m in Sources */,
+				3C2B97231EE04C80000B1EB7 /* seed.c in Sources */,
+				3CC4C12A1EE0445A00141571 /* main.m in Sources */,
+				3CC4C1271EE0445A00141571 /* AppDelegate.m in Sources */,
+				3C2B97201EE04C80000B1EB7 /* key_exchange.c in Sources */,
+				3C1B9FCF1EE05B8500B83BE3 /* IAGAesComponents.m in Sources */,
+				3C2B97261EE04C80000B1EB7 /* verify.c in Sources */,
+				3C2B971F1EE04C80000B1EB7 /* ge.c in Sources */,
+				3C2B97211EE04C80000B1EB7 /* keypair.c in Sources */,
+				3C2B97221EE04C80000B1EB7 /* sc.c in Sources */,
+				3C2B97241EE04C80000B1EB7 /* sha512.c in Sources */,
+				3C1B9FDB1EE05CC400B83BE3 /* AirPlaySenderConnection.m in Sources */,
+				3C1B9FD41EE05B8500B83BE3 /* IAGCipheredData.m in Sources */,
+				3C1B9FD51EE05B8500B83BE3 /* IAGError.m in Sources */,
+				3C1B9FD21EE05B8500B83BE3 /* IAGGcmMathComponents.m in Sources */,
+				3C2B97271EE04C80000B1EB7 /* srp.c in Sources */,
+				3C2B971E1EE04C80000B1EB7 /* fe.c in Sources */,
+				3C2B971C1EE04C80000B1EB7 /* curve25519-donna.c in Sources */,
+				3C1B9FD31EE05B8500B83BE3 /* IAGAesGcm.m in Sources */,
+				3C2B97251EE04C80000B1EB7 /* sign.c in Sources */,
+				3C2B971D1EE04C80000B1EB7 /* add_scalar.c in Sources */,
+				3C1B9FD01EE05B8500B83BE3 /* IAGBitwiseComponents.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CC4C12D1EE0445A00141571 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CC4C12E1EE0445A00141571 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CC4C1311EE0445A00141571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3CC4C1321EE0445A00141571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3CC4C1341EE0445A00141571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/AirPlayAuth/ThirdParty/";
+				INFOPLIST_FILE = AirPlayAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+					"$(PROJECT_DIR)/AirPlayAuth/ThirdParty/openssl",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AirPlayAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		3CC4C1351EE0445A00141571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/AirPlayAuth/ThirdParty/";
+				INFOPLIST_FILE = AirPlayAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+					"$(PROJECT_DIR)/AirPlayAuth/ThirdParty/openssl",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AirPlayAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CC4C11D1EE0445A00141571 /* Build configuration list for PBXProject "AirPlayAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC4C1311EE0445A00141571 /* Debug */,
+				3CC4C1321EE0445A00141571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC4C1331EE0445A00141571 /* Build configuration list for PBXNativeTarget "AirPlayAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC4C1341EE0445A00141571 /* Debug */,
+				3CC4C1351EE0445A00141571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CC4C11A1EE0445A00141571 /* Project object */;
+}
