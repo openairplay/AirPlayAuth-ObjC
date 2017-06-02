@@ -479,8 +479,8 @@ extern void curve25519_donna(unsigned char *output, const unsigned char *a,
     uint8_t sharedSecret[32];
     curve25519_donna(sharedSecret, _privateKey2Data.bytes, atvPublicKey.bytes);
     
-    NSString *aesKeyStr = @"Pair-Setup-AES-Key";
-    NSString *aesIVStr = @"Pair-Setup-AES-IV";
+    NSString *aesKeyStr = @"Pair-Verify-AES-Key";
+    NSString *aesIVStr = @"Pair-Verify-AES-IV";
     NSData *aesKeyStrData = [aesKeyStr dataUsingEncoding:NSUTF8StringEncoding];
     NSData *aesIVStrData = [aesIVStr dataUsingEncoding:NSUTF8StringEncoding];
     const void *aesKeyBytes = aesKeyStrData.bytes;
